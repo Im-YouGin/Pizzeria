@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizzeria</title>
+</head>
+<body>
+    <div id="loader" class="center"></div> 
+    <div class="page-wrapper">
+        <section id="header">
+            <div class="header">
+                
+                <div class="nav-bar">
+                    <div class="brand">
+                        <a href="#"><h1>Pizzeria</h1></a>
+                    </div>
+                    <div class="nav-list">
+                        
+                        <ul>
+                            <li><a data-after="Discounts" href="#actions">Discounts</a></li>
+                            <li><a data-after="Pizza" href="#products">Pizza</a></li>
+                        </ul>
+                    </div>
+                    <div class="shopping-cart">
+                        <div class="shopping-cart-number">0</div>
+                        <a href="#cart"><i class="fa fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="hamburger"><div class="bar"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="main-container"></div>
+        
+        
+    </div>
+    <section id="footer">
+        <div class="footer-wrap">
+            <div class="footer__item">
+                <h2>Contact Information</h2>
+                    <br>
+                <div class="footer__item-box">
+                    <p>info@pizzeria.com</p>
+                    <p>012 345 67 89</p>
+                </div>
+
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="contact-form">
+                    <h2>Leave Review</h2>
+                    <br>
+                    <form id="contact-me" method="post">
+                        <fieldset>
+                          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                        </fieldset>
+                        <fieldset>
+                          <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                        </fieldset>
+                        <fieldset>
+                          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                        </fieldset>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="dbapi.js"></script>
+</body>
+</html>
