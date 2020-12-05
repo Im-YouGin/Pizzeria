@@ -1,0 +1,208 @@
+{
+    "products":[
+      {
+        "title":"Pizza Pepperoni",
+        "desc":"Mozarella, Peperoni, Tomatoes, BBQ sauce",
+        "price":"92.99",
+        "weight":"350 g",
+        "prodUrl":"product/pepperonitomato",
+        "imgPath":"./imgs/pepperonitomato.jpg",
+        "category":"classic"
+      },
+      {
+        "title":"Pizza Margarita",
+        "desc":"Mozarella,  sauce",
+        "price":"92.99",
+        "weight":"339 g",
+        "prodUrl":"product/margarita",
+        "imgPath":"./imgs/margarita.jpg",
+        "category":"classic"
+      },
+      {
+        "title":"Pizza Hawaiian",
+        "desc":"Chicken, Pineapple, Mozarella,  sauce",
+        "price":"124.99",
+        "weight":"374 g",
+        "prodUrl":"product/hawaiian",
+        "imgPath":"./imgs/hawaiian.jpg",
+        "category":"classic"
+      },
+      {
+        "title":"Pizza BBQ",
+        "desc":"Chicken, Onion, Bacon, Mushrooms, Mozarella, BBQ sauce",
+        "price":"124.99",
+        "weight":"374 g",
+        "prodUrl":"product/bbq",
+        "imgPath":"./imgs/bbq.jpg",
+        "category":"classic"
+      },
+      {
+        "title":"Pizza Five Cheeses",
+        "desc":"Feta, Parmesan, Bergader Blue, Mozarella, Al'fredo sauce, Cheddar",
+        "price":"187.99",
+        "weight":"338 g",
+        "prodUrl":"product/fivecheeses",
+        "imgPath":"./imgs/fivecheeses.jpg",
+        "category":"premium"
+      },
+      {
+        "title":"Pizza Spinach and Feta",
+        "desc":"Feta, Olives, Bell pepper, Mushrooms, Mozarella, Tomatoes, Al'fredo sauce, Spinach",
+        "price":"187.99",
+        "weight":"405 g",
+        "prodUrl":"product/spinachfeta",
+        "imgPath":"./imgs/spinachfeta.jpg",
+        "category":"premium"
+      },
+      {
+        "title":"Pizza MitZZa",
+        "desc":"Parmesan, Bacon, Ham, Bavarian sausages, Mozarella, Peperoni,  sauce",
+        "price":"187.99",
+        "weight":"391 g",
+        "prodUrl":"product/mitzza",
+        "imgPath":"./imgs/mitzza.jpg",
+        "category":"premium"
+      },
+      {
+        "title":"Pizza Extravaganzza",
+        "desc":"Meatballs, Olives, Onion, Bell pepper, Ham, Mushrooms, Mozarella, Peperoni,  sauce",
+        "price":"187.99",
+        "weight":"470 g",
+        "prodUrl":"product/extravaganzza",
+        "imgPath":"./imgs/extravaganzza.jpg",
+        "category":"premium"
+      },
+      {
+        "title":"Pizza Toscana",
+        "desc":"Chicken, Feta, Mozarella, Cherry tomatoes, Al'fredo sauce, Spinach",
+        "price":"172.99",
+        "weight":"374 g",
+        "prodUrl":"product/toscana",
+        "imgPath":"./imgs/toscana.jpg",
+        "category":"legend"
+      },
+      {
+        "title":"Pizza Munich DeLUX",
+        "desc":"Ham, Mustard, Bavarian sausages, Mozarella, Tomatoes, White sausages, BBQ sauce",
+        "price":"172.99",
+        "weight":"424 g",
+        "prodUrl":"product/munichdelux",
+        "imgPath":"./imgs/munichdelux.jpg",
+        "category":"legend"
+      },
+      {
+        "title":"Pizza Spicy",
+        "desc":"Jalapeno, Bacon, Mozarella, Peperoni, Tomatoes,  sauce",
+        "price":"172.99",
+        "weight":"380 g",
+        "prodUrl":"product/spicy",
+        "imgPath":"./imgs/spicy.jpg",
+        "category":"legend"
+      },
+      {
+        "title":"Pizza BBQ Delux",
+        "desc":"Meatballs, Onion, Parmesan, Bell pepper, Mushrooms, Mozarella, Peperoni, BBQ sauce",
+        "price":"172.99",
+        "weight":"389 g",
+        "prodUrl":"product/bbqdelux",
+        "imgPath":"./imgs/bbqdelux.jpg",
+        "category":"legend"
+      },
+      {
+        "title":"Pizza Country",
+        "desc":"Onion, Bacon, Ham, Mushrooms, Mozarella, Pickled cucumbers, Garlic sauce",
+        "price":"152.99",
+        "weight":"380 g",
+        "prodUrl":"product/country",
+        "imgPath":"./imgs/country.jpg",
+        "category":"custom"
+      },
+      {
+        "title":"Pizza Veggie Feast",
+        "desc":"Olives, Onion, Bell pepper, Mushrooms, Mozarella, Tomatoes,  sauce",
+        "price":"152.99",
+        "weight":"405 g",
+        "prodUrl":"product/veggiefeast",
+        "imgPath":"./imgs/veggiefeast.jpg",
+        "category":"custom"
+      },
+      {
+        "title":"Pizza Curry",
+        "desc":"Chicken, Curry sauce, Onion, Pineapple, Mozarella",
+        "price":"152.99",
+        "weight":"383 g",
+        "prodUrl":"product/curry",
+        "imgPath":"./imgs/curry.jpg",
+        "category":"custom"
+      },
+      {
+        "title":"Pizza PaparaZZi",
+        "desc":"Olives, Mozarella, Peperoni, Tomatoes, Al'fredo sauce",
+        "price":"152.99",
+        "weight":"346 g",
+        "prodUrl":"product/paparazzi",
+        "imgPath":"./imgs/paparazzi.jpg",
+        "category":"custom"
+      }
+    ],
+    "actions":[
+      {
+        "title":"Black Friday -50% for pizza!",
+        "desc":"Black Friday at Domino`s! And, therefore, all fluffy paws will receive a profitable discount on your favorite pizza! From 27.11. to 29.11. buy every second pizza with a discount of -50%!",
+        "imgPath":"./imgs/blackfriday.jpg",
+        "id": 1
+      },
+      {
+        "title":"WOWeekend in Domino's!",
+        "desc":"Order any medium pizza for only 199 UAH or large pizza for only 239 UAH! The promotion is valid every Friday, Saturday and Sunday. The action applies on pizzas from the menu. The action does not applies on pizzas by your own recipe, aditional topping is not available in this offer.",
+        "imgPath":"./imgs/wowweekend.jpg",
+        "id": 2
+      },
+      {
+        "title":"Contactless Delivery at Domino's!",
+        "desc":"Dear Customers! Your health is above all for us, so we recommend for you to place an order and pay online on our website or in the app. And in the comments to the order put the word - БЕЗКОНТАКТ, and write a little more details where the courier need to leave your order (for example, in front of the apartment door).",
+        "imgPath":"./imgs/delivery.jpg",
+        "id": 3
+      }
+    ],
+    "indexes":{
+      "bestPrice":[
+        0,
+        1,
+        2,
+        3
+      ],
+      "recommended":[
+        4,
+        5,
+        6,
+        7
+      ],
+      "classic":[
+        0,
+        1,
+        2,
+        3
+      ],
+      "premium":[
+        4,
+        5,
+        6,
+        7
+      ],
+      "legend":[
+        8,
+        9,
+        10,
+        11
+      ],
+      "custom":[
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "posts":[],
+    "orders":[]
+  }
